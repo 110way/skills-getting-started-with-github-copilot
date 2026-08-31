@@ -24,6 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const participantsList = participants.length
           ? `<ul class="participants-list">${participants
               .map(
+
+                
                 (participant) => `
                   <li class="participant-item">
                     <span>${participant}</span>
